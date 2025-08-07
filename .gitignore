@@ -1,0 +1,17 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+# Streamlit’s cache
+.streamlit/
+
+# FAISS index (we’ll rebuild it on the server)
+vectorstore_db_faiss/
+
+# Environment file
+.env
